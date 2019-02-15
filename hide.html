@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cows and Bulls Game</title>
+    
+            <h1 class="a"> It's a Puzzle game where we need to find a number </h1>
+    
+    <center>
+    <h1 style="color:rgb(23, 23, 37);"> Give your 4 Digit number </h1>
+    </center>
+    
+    <script src="scr.js"></script>
+</head>
+    <style>
+        h1.a{
+            font-family:Trattatello, fantasy
+        }
+        p.b{
+           font-family: 'Courier New', Courier, monospace
+        }
+    body{
+            background-image: url("pic4.png");
+            background-color: #cccccc;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-attachment: fixed;
+            background-size: 100% 160%;
+            position: relative;
+        }
+          </style>     
+         
+    <body>
+            
+           <center>
+ <input style="height:30px;font-size:14pt" type="number" name="uinp" id="uinp" min="4" maxlength="4" placeholder="Give your number..... " style="float:middle"" />
+ <br /> <br />
+ <button onclick="getCows()" style="float:bottom">Guess..</button>
+    </center>
+    
+ 
+    <style>
+ 
+    div{
+        background-color:#58FAF4;
+        width: 500px;
+        size: 50;
+       
+        padding: 25px;
+        margin: 25px;
+      }
+      </style>
+    
+ <div id="result" style="position: absolute"></div>
+</div>
+    <br> <br> <br><br> <br> <br><br> <br> <br> <br>
+    <p class="b"><strong>Note:</strong>RULES:- <br />1. When Elements are matched COWS will get's changed<br /> 2. When Position of Elements are matched BULLS will get's changed</p>
+</body>
+</html>
